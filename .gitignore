@@ -1,0 +1,47 @@
+## === Toolchain ===
+# Icarus Verilog / Verilator / ModelSim / Vivado / Quartus
+
+## === Simulation ===
+# Ignore build artifacts
+*.vvp
+*.vcd
+*.o
+
+## === Synthesis ===
+# Ignore synthesis output
+*.bit
+*.bin
+*.mcs
+*.sof
+*.pof
+*.qsf.bak
+
+## === IDE ===
+*.swp
+.vscode/
+*.log
+.DS_Store
+
+## === Vendor-specific ===
+# Xilinx
+*.xpr.bak
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.xci
+
+# Intel Quartus
+db/
+incremental_db/
+*.qpf.bak
+*.rpt
+*.summary
+
+# Lattice
+*.synplify.db
+
+# Vivado journal
+vivado.jou
+vivado.log
